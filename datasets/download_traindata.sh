@@ -59,7 +59,7 @@ if [ ! -e "README_traindata" ]; then
 	wget --no-check-certificate "https://lmb.informatik.uni-freiburg.de/data/demon/traindata/README_traindata"
 fi
 
-for ds in ${datasets[@]}; do
+for ds in "${datasets[@]}"; do
 	if [ -e "${ds}_train.h5" ]; then
 		echo "${ds}_train.h5 already exists, skipping ${ds}"
 	else
