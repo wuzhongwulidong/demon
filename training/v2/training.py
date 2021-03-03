@@ -23,9 +23,9 @@ import sys
 import glob
 import json
 
-import depthmotionnet.datareader as datareader
-from depthmotionnet.v2.blocks import *
-from depthmotionnet.v2.losses import *
+import python.depthmotionnet.datareader as datareader
+from python.depthmotionnet.v2.blocks import *
+from python.depthmotionnet.v2.losses import *
 
 #
 # global parameters

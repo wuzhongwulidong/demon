@@ -69,3 +69,10 @@ for ds in "${datasets[@]}"; do
 done
 
 cd "$OLD_PWD"
+
+#要下载的就是如下四个数据集，对应的下载命令如下：
+#sun3d  rgbd_bugfix  mvs  scenes11
+#wget https://lmb.informatik.uni-freiburg.de/data/demon/traindata/sun3d_train.tgz
+#wget https://lmb.informatik.uni-freiburg.de/data/demon/traindata/rgbd_bugfix_train.tgz
+#wget https://lmb.informatik.uni-freiburg.de/data/demon/traindata/mvs_train.tgz
+#wget https://lmb.informatik.uni-freiburg.de/data/demon/traindata/scenes11_train.tgz
